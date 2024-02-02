@@ -294,12 +294,16 @@ header .fa-bars{
     }
     .landing .info .links{
         width: 352px;
+        padding-top: 20px;
     }
     .landing .info h3{
-        font-size: 24px;
+        font-size: 20px;
     }
     .landing .info p{
         width: 333px;
+    }
+    .landing .info .links a{
+        padding: 12px;
     }
    
 }
@@ -376,7 +380,7 @@ header .fa-bars{
 
     @media (max-width:767px) {
         .cards{
-            margin-top: -272px;
+            margin-top: -200px;
         }
     }
 /* about section */
@@ -726,7 +730,7 @@ width: 320px;
 }
 @media (max-width:767px) {
     .rules .content .container{
-        padding-left: 51px;
+        padding-left: 34px;
     }
 }
 /* offer section */
@@ -823,7 +827,7 @@ width: 320px;
 }
 @media (max-width:767px) {
     .news .container{
-        padding-left: 53px;
+        padding-left: 34px;
     }
 }
 .book{
@@ -1076,11 +1080,14 @@ footer .copy{
 @media (max-width:767px) {
     footer .container{
         flex-direction: column;
-        margin-left: 37px;
+        margin-left: 24px;
     }
 }
 @media (max-width:767px) {
     footer .copy{
         font-size: 19px;
+    }
+    footer .media{
+        padding-bottom: 22px;
     }
 }

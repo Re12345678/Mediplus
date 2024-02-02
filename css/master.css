@@ -730,7 +730,7 @@ width: 320px;
 }
 @media (max-width:767px) {
     .rules .content .container{
-        padding-left: 34px;
+        padding-left: 20px;
     }
 }
 /* offer section */
@@ -1055,7 +1055,7 @@ footer .ab i:hover{
     
 }
 footer .copy{
-    width: 111%;
+    width: 115%;
     margin-left: -19px;
     height: 30px;
     background-color: #9E9E9E;
@@ -1066,6 +1066,7 @@ footer .copy{
     font-weight: bold;
     padding-bottom: 32px;
     font-size: 22px;
+    padding-left: 0;
 }
 @media (max-width:992px) {
     footer .container{
@@ -1085,7 +1086,7 @@ footer .copy{
 }
 @media (max-width:767px) {
     footer .copy{
-        font-size: 19px;
+        font-size: 15px;
     }
     footer .media{
         padding-bottom: 22px;

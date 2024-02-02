@@ -53,6 +53,8 @@ header .contacts{
     justify-content: space-between;
     padding-top: 34px;
     padding-bottom: 12px;
+    overflow: hidden;
+    
 }
 header .contacts ul{
     width: 454px;
@@ -262,16 +264,16 @@ header .fa-bars{
  }
  header .fa-bars:hover + ul,
  header .fa-bars:focus + ul{
-     display: flex;
-     flex-direction: column;
-     width: 258px;
-     height: 314px;
-     position: absolute;
-     top: 127px;
-     right: 9px;
-     background-color: white;
-     text-align: center;
-     z-index: 100;
+    display: flex;
+    flex-direction: column;
+    width: 393px;
+    height: 366px;
+    position: absolute;
+    top: 144px;
+    right: 9px;
+    background-color: #00000029;
+    text-align: center;
+    z-index: 100;
  }
     /* .contacts ul li:hover{
         color: var(--main-color);

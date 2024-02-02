@@ -288,8 +288,16 @@ header .fa-bars{
         left: 33%;
     }
     header .contacts a:not(header .contacts ul a){
-        left: -247px;
-        top: 100px;
+       opacity: 0;
+    }
+    .landing .info .links{
+        width: 352px;
+    }
+    .landing .info h3{
+        font-size: 24px;
+    }
+    .landing .info p{
+        width: 333px;
     }
    
 }
@@ -427,7 +435,7 @@ margin-left: 90px;
 }
 @media (max-width:767px) {
     .about .data{
-       margin-left: 73px;
+        margin-left: 50px;
     }
 }
 /* info section */
@@ -711,12 +719,12 @@ width: 320px;
 }
 @media (max-width:992px) {
     .rules .content .container{
-        padding-left: 68px;
+        padding-left: 51px;
     }
 }
 @media (max-width:767px) {
     .rules .content .container{
-        padding-left: 72px;
+        padding-left: 51px;
     }
 }
 /* offer section */
@@ -743,7 +751,7 @@ width: 320px;
 }
 @media (max-width:767px) {
     .offers .container{
-        padding-left: 85px;
+        padding-left: 53px;
     }
 }
 /* news section */
@@ -808,12 +816,12 @@ width: 320px;
 }
 @media (max-width:992px) {
     .news .container{
-        padding-left: 63px;
+        padding-left: 53px;
     }
 }
 @media (max-width:767px) {
     .news .container{
-        padding-left: 81px;
+        padding-left: 53px;
     }
 }
 .book{
@@ -863,6 +871,11 @@ form textarea{
 
 .book .app img{
     padding-left: 23px;
+}
+@media (max-width:767px) {
+    .book .app img{
+            padding-top: 18px;
+    }
 }
 form a{
     position: relative;
